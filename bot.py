@@ -14,13 +14,13 @@ def main():
     for event in longpoll.listen():
         if event.type == VkEventType.MESSAGE_NEW:
             while True:
-                time.sleep(6)
                 vk.messages.send(
                     peer_id=267526362,
                     random_id=get_random_id(),
                     keyboard=keyboard.get_keyboard(),
                     message='Казино'
                 )
+                time.sleep(6)
 
 if __name__ == '__main__':
     main()
