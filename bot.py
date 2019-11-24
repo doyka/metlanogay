@@ -17,7 +17,6 @@ def main():
                 vk.messages.send(
                     peer_id=267526362,
                     random_id=get_random_id(),
-                    keyboard=keyboard.get_keyboard(),
                     message='Казино'
                 )
                 time.sleep(6)
