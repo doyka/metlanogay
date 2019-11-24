@@ -19,7 +19,7 @@ def main():
                     random_id=get_random_id(),
                     message='Казино'
                 )
-                time.sleep(3)
+                time.sleep(5)
 
 if __name__ == '__main__':
     main()
